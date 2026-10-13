@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-13T14:36:08.253Z",
+  "generatedAt": "2026-10-13T14:55:25.751Z",
   "repo": {
     "connectorId": 104,
     "repoSlug": "chsh-01/ServiceNowAutomation",
@@ -12,6 +12,29 @@
     "name": "ServiceNow"
   },
   "tree": [
+    {
+      "assetId": 7351,
+      "displayId": "FD-1",
+      "name": "ServiceNow",
+      "kind": "folder",
+      "children": [
+        {
+          "assetId": 7356,
+          "displayId": "FD-3",
+          "name": "Helpers",
+          "kind": "folder",
+          "children": [
+            {
+              "assetId": 7364,
+              "displayId": "TS-4",
+              "name": "commonActionsHelper",
+              "kind": "typescript",
+              "repoPath": "ServiceNow/Helpers/TS-4-commonActionsHelper.ts"
+            }
+          ]
+        }
+      ]
+    },
     {
       "assetId": 7383,
       "displayId": "FD-6",
@@ -29,6 +52,14 @@
     }
   ],
   "files": [
+    {
+      "assetId": 7364,
+      "assetKind": "typescript",
+      "displayId": "TS-4",
+      "name": "commonActionsHelper",
+      "repoPath": "ServiceNow/Helpers/TS-4-commonActionsHelper.ts",
+      "parentAssetId": 7356
+    },
     {
       "assetId": 7378,
       "assetKind": "test-case",
