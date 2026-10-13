@@ -1,41 +1,41 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-13T14:36:08.253Z",
+  "generatedAt": "2026-10-13T14:45:19.144Z",
   "repo": {
-    "connectorId": 104,
+    "connectorId": 103,
     "repoSlug": "chsh-01/ServiceNowAutomation",
-    "baseBranch": "main"
+    "baseBranch": "feature/gareytest"
   },
   "team": {
-    "assetId": 7350,
+    "assetId": 5151,
     "displayId": "TM-1",
-    "name": "ServiceNow"
+    "name": "Automation"
   },
   "tree": [
     {
-      "assetId": 7383,
-      "displayId": "FD-6",
-      "name": "TestCases",
+      "assetId": 7452,
+      "displayId": "FD-8",
+      "name": "Bug_1476",
       "kind": "folder",
       "children": [
         {
-          "assetId": 7378,
-          "displayId": "TC-17",
-          "name": "[C46711]_ServiceNow_CreateBulkIncidents",
+          "assetId": 7490,
+          "displayId": "TC-50",
+          "name": "Cs_originaltestcase - Copy - Copy",
           "kind": "test-case",
-          "repoPath": "TestCases/TC-17-[C46711]_ServiceNow_CreateBulkIncidents.spec.ts"
+          "repoPath": "Bug_1476/TC-50-Cs_originaltestcase-Copy-Copy.spec.ts"
         }
       ]
     }
   ],
   "files": [
     {
-      "assetId": 7378,
+      "assetId": 7490,
       "assetKind": "test-case",
-      "displayId": "TC-17",
-      "name": "[C46711]_ServiceNow_CreateBulkIncidents",
-      "repoPath": "TestCases/TC-17-[C46711]_ServiceNow_CreateBulkIncidents.spec.ts",
-      "parentAssetId": 7383
+      "displayId": "TC-50",
+      "name": "Cs_originaltestcase - Copy - Copy",
+      "repoPath": "Bug_1476/TC-50-Cs_originaltestcase-Copy-Copy.spec.ts",
+      "parentAssetId": 7452
     }
   ]
 }
