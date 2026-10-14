@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-14T10:02:37.207Z",
+  "generatedAt": "2026-10-14T10:16:23.297Z",
   "repo": {
     "connectorId": 109,
     "repoSlug": "chsh-01/ServiceNowAutomation",
@@ -12,6 +12,20 @@
     "name": "LAIS1651"
   },
   "tree": [
+    {
+      "assetId": 12245,
+      "displayId": "TC-10",
+      "name": "[C46727]_ServiceNow_CreateBusinessApplication",
+      "kind": "test-case",
+      "repoPath": "TC-10-[C46727]_ServiceNow_CreateBusinessApplication.spec.ts"
+    },
+    {
+      "assetId": 12227,
+      "displayId": "TC-9",
+      "name": "[C46728]_ServiceNow_ActivateDeactivateOrderState",
+      "kind": "test-case",
+      "repoPath": "TC-9-[C46728]_ServiceNow_ActivateDeactivateOrderState.spec.ts"
+    },
     {
       "assetId": 12259,
       "displayId": "AG-1",
@@ -49,6 +63,22 @@
       "displayId": "TC-1",
       "name": "chromiumconfigsvalidation",
       "repoPath": "TC-1-chromiumconfigsvalidation.spec.ts",
+      "parentAssetId": 12163
+    },
+    {
+      "assetId": 12245,
+      "assetKind": "test-case",
+      "displayId": "TC-10",
+      "name": "[C46727]_ServiceNow_CreateBusinessApplication",
+      "repoPath": "TC-10-[C46727]_ServiceNow_CreateBusinessApplication.spec.ts",
+      "parentAssetId": 12163
+    },
+    {
+      "assetId": 12227,
+      "assetKind": "test-case",
+      "displayId": "TC-9",
+      "name": "[C46728]_ServiceNow_ActivateDeactivateOrderState",
+      "repoPath": "TC-9-[C46728]_ServiceNow_ActivateDeactivateOrderState.spec.ts",
       "parentAssetId": 12163
     },
     {
