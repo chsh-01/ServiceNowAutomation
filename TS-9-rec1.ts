@@ -1,6 +1,6 @@
 export const recordingAdapter: RecordingAdapterDefinition = {
-  id: 'my-adapter',
-  displayName: 'My Adapter',
+  id: 'my-adapter1',
+  displayName: 'My Adapter1',
   hostFragments: [ ],
   additionalEvents: [ ],
 
