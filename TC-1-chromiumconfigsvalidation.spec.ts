@@ -13,19 +13,19 @@ leapwork.configuration({
       ?? leapwork.workspace.settings.get("enableSelfHeal")) !== "false",
   chromiumArgs:
     leapwork.team.settings.get("chromiumArgs")
-      ?? leapwork.workspace.settings.get("chromiumArgs"),
-      // ?? ["--deny-permission-prompts",
-      //     "--disable-notifications"
-      //   ],
+      ?? leapwork.workspace.settings.get("chromiumArgs")
+      ?? ["--deny-permission-prompts",
+          "--disable-notifications"
+        ],
   chromiumPrefs: leapwork.team.settings.get("chromiumPrefs")
       ?? leapwork.workspace.settings.get("chromiumPrefs")
-      // ?? { "credentials_enable_service": false,
-      //     "profile":
-      //     {
-      //       "password_manager_enabled": false,
-      //       "password_manager_leak_detection": false
-      //     }
-      //   },
+      ?? { "credentials_enable_service": false,
+          "profile":
+          {
+            "password_manager_enabled": false,
+            "password_manager_leak_detection": false
+          }
+        },
 });
 
 // ai-studio-step-id: pw9cg6cg00
