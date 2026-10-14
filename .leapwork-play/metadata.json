@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-14T09:59:41.142Z",
+  "generatedAt": "2026-10-14T10:02:37.207Z",
   "repo": {
     "connectorId": 109,
     "repoSlug": "chsh-01/ServiceNowAutomation",
@@ -20,6 +20,13 @@
       "repoPath": "AG-1-agent1.agent.json"
     },
     {
+      "assetId": 12165,
+      "displayId": "TC-1",
+      "name": "chromiumconfigsvalidation",
+      "kind": "test-case",
+      "repoPath": "TC-1-chromiumconfigsvalidation.spec.ts"
+    },
+    {
       "assetId": 12260,
       "displayId": "TS-9",
       "name": "rec1",
@@ -34,6 +41,14 @@
       "displayId": "AG-1",
       "name": "agent1",
       "repoPath": "AG-1-agent1.agent.json",
+      "parentAssetId": 12163
+    },
+    {
+      "assetId": 12165,
+      "assetKind": "test-case",
+      "displayId": "TC-1",
+      "name": "chromiumconfigsvalidation",
+      "repoPath": "TC-1-chromiumconfigsvalidation.spec.ts",
       "parentAssetId": 12163
     },
     {
