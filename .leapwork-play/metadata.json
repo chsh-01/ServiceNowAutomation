@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-14T09:54:07.584Z",
+  "generatedAt": "2026-10-14T09:59:41.142Z",
   "repo": {
     "connectorId": 109,
     "repoSlug": "chsh-01/ServiceNowAutomation",
@@ -13,6 +13,13 @@
   },
   "tree": [
     {
+      "assetId": 12259,
+      "displayId": "AG-1",
+      "name": "agent1",
+      "kind": "agent",
+      "repoPath": "AG-1-agent1.agent.json"
+    },
+    {
       "assetId": 12260,
       "displayId": "TS-9",
       "name": "rec1",
@@ -21,6 +28,14 @@
     }
   ],
   "files": [
+    {
+      "assetId": 12259,
+      "assetKind": "agent",
+      "displayId": "AG-1",
+      "name": "agent1",
+      "repoPath": "AG-1-agent1.agent.json",
+      "parentAssetId": 12163
+    },
     {
       "assetId": 12260,
       "assetKind": "typescript",
