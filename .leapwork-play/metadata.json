@@ -1,72 +1,33 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-13T14:55:25.751Z",
+  "generatedAt": "2026-10-14T09:54:07.584Z",
   "repo": {
-    "connectorId": 104,
+    "connectorId": 109,
     "repoSlug": "chsh-01/ServiceNowAutomation",
-    "baseBranch": "main"
+    "baseBranch": "feature/lais1651"
   },
   "team": {
-    "assetId": 7350,
+    "assetId": 12163,
     "displayId": "TM-1",
-    "name": "ServiceNow"
+    "name": "LAIS1651"
   },
   "tree": [
     {
-      "assetId": 7351,
-      "displayId": "FD-1",
-      "name": "ServiceNow",
-      "kind": "folder",
-      "children": [
-        {
-          "assetId": 7356,
-          "displayId": "FD-3",
-          "name": "Helpers",
-          "kind": "folder",
-          "children": [
-            {
-              "assetId": 7364,
-              "displayId": "TS-4",
-              "name": "commonActionsHelper",
-              "kind": "typescript",
-              "repoPath": "ServiceNow/Helpers/TS-4-commonActionsHelper.ts"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "assetId": 7383,
-      "displayId": "FD-6",
-      "name": "TestCases",
-      "kind": "folder",
-      "children": [
-        {
-          "assetId": 7378,
-          "displayId": "TC-17",
-          "name": "[C46711]_ServiceNow_CreateBulkIncidents",
-          "kind": "test-case",
-          "repoPath": "TestCases/TC-17-[C46711]_ServiceNow_CreateBulkIncidents.spec.ts"
-        }
-      ]
+      "assetId": 12260,
+      "displayId": "TS-9",
+      "name": "rec1",
+      "kind": "typescript",
+      "repoPath": "TS-9-rec1.ts"
     }
   ],
   "files": [
     {
-      "assetId": 7364,
+      "assetId": 12260,
       "assetKind": "typescript",
-      "displayId": "TS-4",
-      "name": "commonActionsHelper",
-      "repoPath": "ServiceNow/Helpers/TS-4-commonActionsHelper.ts",
-      "parentAssetId": 7356
-    },
-    {
-      "assetId": 7378,
-      "assetKind": "test-case",
-      "displayId": "TC-17",
-      "name": "[C46711]_ServiceNow_CreateBulkIncidents",
-      "repoPath": "TestCases/TC-17-[C46711]_ServiceNow_CreateBulkIncidents.spec.ts",
-      "parentAssetId": 7383
+      "displayId": "TS-9",
+      "name": "rec1",
+      "repoPath": "TS-9-rec1.ts",
+      "parentAssetId": 12163
     }
   ]
 }
