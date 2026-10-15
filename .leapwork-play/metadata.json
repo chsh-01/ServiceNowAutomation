@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-15T09:36:55.617Z",
+  "generatedAt": "2026-10-15T09:39:11.081Z",
   "repo": {
     "connectorId": 546,
     "repoSlug": "chsh-01/ServiceNowAutomation",
@@ -36,6 +36,29 @@
       ]
     },
     {
+      "assetId": 40102,
+      "displayId": "FD-6",
+      "name": "ServiceNow",
+      "kind": "folder",
+      "children": [
+        {
+          "assetId": 40106,
+          "displayId": "FD-8",
+          "name": "Pages",
+          "kind": "folder",
+          "children": [
+            {
+              "assetId": 40107,
+              "displayId": "TS-3",
+              "name": "businessapplication.locators",
+              "kind": "typescript",
+              "repoPath": "ServiceNow/Pages/TS-3-businessapplication.locators.ts"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "assetId": 41854,
       "displayId": "TC-13",
       "name": "d365_prodtc",
@@ -51,6 +74,14 @@
       "name": "Add a product from a filtered catalog state",
       "repoPath": "08102026/Product Details and Cart Addition/TC-49-Add-a-product-from-a-filtered-catalog-state.spec.ts",
       "parentAssetId": 46595
+    },
+    {
+      "assetId": 40107,
+      "assetKind": "typescript",
+      "displayId": "TS-3",
+      "name": "businessapplication.locators",
+      "repoPath": "ServiceNow/Pages/TS-3-businessapplication.locators.ts",
+      "parentAssetId": 40106
     },
     {
       "assetId": 41854,
