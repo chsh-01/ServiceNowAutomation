@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-15T09:39:11.081Z",
+  "generatedAt": "2026-10-15T09:41:43.543Z",
   "repo": {
     "connectorId": 546,
     "repoSlug": "chsh-01/ServiceNowAutomation",
@@ -42,6 +42,21 @@
       "kind": "folder",
       "children": [
         {
+          "assetId": 40103,
+          "displayId": "FD-7",
+          "name": "Helpers",
+          "kind": "folder",
+          "children": [
+            {
+              "assetId": 40113,
+              "displayId": "TS-5",
+              "name": "AddProductToCart",
+              "kind": "typescript",
+              "repoPath": "ServiceNow/Helpers/TS-5-AddProductToCart.ts"
+            }
+          ]
+        },
+        {
           "assetId": 40106,
           "displayId": "FD-8",
           "name": "Pages",
@@ -74,6 +89,14 @@
       "name": "Add a product from a filtered catalog state",
       "repoPath": "08102026/Product Details and Cart Addition/TC-49-Add-a-product-from-a-filtered-catalog-state.spec.ts",
       "parentAssetId": 46595
+    },
+    {
+      "assetId": 40113,
+      "assetKind": "typescript",
+      "displayId": "TS-5",
+      "name": "AddProductToCart",
+      "repoPath": "ServiceNow/Helpers/TS-5-AddProductToCart.ts",
+      "parentAssetId": 40103
     },
     {
       "assetId": 40107,
