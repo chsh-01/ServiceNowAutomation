@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-15T09:33:54.139Z",
+  "generatedAt": "2026-10-15T09:36:55.617Z",
   "repo": {
     "connectorId": 546,
     "repoSlug": "chsh-01/ServiceNowAutomation",
@@ -34,6 +34,13 @@
           ]
         }
       ]
+    },
+    {
+      "assetId": 41854,
+      "displayId": "TC-13",
+      "name": "d365_prodtc",
+      "kind": "test-case",
+      "repoPath": "TC-13-d365_prodtc.spec.ts"
     }
   ],
   "files": [
@@ -44,6 +51,14 @@
       "name": "Add a product from a filtered catalog state",
       "repoPath": "08102026/Product Details and Cart Addition/TC-49-Add-a-product-from-a-filtered-catalog-state.spec.ts",
       "parentAssetId": 46595
+    },
+    {
+      "assetId": 41854,
+      "assetKind": "test-case",
+      "displayId": "TC-13",
+      "name": "d365_prodtc",
+      "repoPath": "TC-13-d365_prodtc.spec.ts",
+      "parentAssetId": 40088
     }
   ]
 }
