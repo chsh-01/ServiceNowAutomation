@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-21T10:15:51.936Z",
+  "generatedAt": "2026-10-21T10:16:00.749Z",
   "repo": {
     "connectorId": 104,
     "repoSlug": "chsh-01/ServiceNowAutomation",
@@ -18,6 +18,21 @@
       "name": "ServiceNow",
       "kind": "folder",
       "children": [
+        {
+          "assetId": 7359,
+          "displayId": "FD-4",
+          "name": "Commons",
+          "kind": "folder",
+          "children": [
+            {
+              "assetId": 7361,
+              "displayId": "TC-5",
+              "name": "AddRequestedItem",
+              "kind": "test-case",
+              "repoPath": "ServiceNow/Commons/TC-5-AddRequestedItem.spec.ts"
+            }
+          ]
+        },
         {
           "assetId": 7356,
           "displayId": "FD-3",
@@ -59,6 +74,14 @@
     }
   ],
   "files": [
+    {
+      "assetId": 7361,
+      "assetKind": "test-case",
+      "displayId": "TC-5",
+      "name": "AddRequestedItem",
+      "repoPath": "ServiceNow/Commons/TC-5-AddRequestedItem.spec.ts",
+      "parentAssetId": 7359
+    },
     {
       "assetId": 7364,
       "assetKind": "typescript",
